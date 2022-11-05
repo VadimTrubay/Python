@@ -11,6 +11,7 @@ PetyaScore = 0
 diceOne = [1, 2, 3, 4, 5, 6]
 diceTwo = [1, 2, 3, 4, 5, 6]
 
+
 def playDiceGame():
     """Оба участника, Вася и Петя, бросают кубик, используя метод shuffle"""
 

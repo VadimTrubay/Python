@@ -62,7 +62,8 @@ def space_free(board, move):
 def get_player_move(board):
     move = ''
     while move not in '1 2 3 4 5 6 7 8 9'.split() or not space_free(board, int(move)):
-        print('your turn (1-9): ')
+        print()
+        print('Make your move (1-9): ')
         move = input()
     return int(move)
 
@@ -121,7 +122,7 @@ while True:
     while game_playing:
         os.system('cls')
         print("Let's play x or 0!")
-        print('Will be the first to walk ' + turn)
+        print('===========')
         board()
         print('===========\n')
         if turn == 'player':
