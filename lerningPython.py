@@ -138,25 +138,25 @@ sys.exit()'''
 # print(message % myScore)
 
 # nums = "что сказало число %s, числу %s? Славный поясок!"
-'''print(nums % (0,8))'''
+# print(nums % (0, 8))
 
 # spaice = ' ' * 25
-'''print("%s впереди есть 25 пробелов "% spaice)'''
+# print("%s впереди есть 25 пробелов " % spaice)
 
 # print(10 * "слякоть\n")
 
 # списки или массивы
-'''produktList = ["молоко", "масло", "сметана", "сливки", "кефир"]
-produktList[3] = "оливки"
-print(produktList[1:4])'''
-
-# someNumbers = [1, 2, 3]
-'''someString = ["one", "two", "three"]'''
+# produktList = ['молоко', 'масло', 'сметана', 'сливки', 'кефир']
+# produktList[3] = 'оливки'
+# print(produktList[1:4])
 
 # добавление и удаление елементов списка
-'''someNumbers.append("4")
-someString.append("five")
-del someNumbers[0]'''
+# someNumbers = [1, 2, 3]
+# someString = ['one', 'two', 'three']
+# someNumbers.append('4')
+# someString.append('five')
+# del someNumbers[0]
+# print(someNumbers, someString)
 
 # список в списке
 '''someNumberAndString = [someNumbers, someString]
@@ -170,12 +170,12 @@ print(fibs[2])
 fibs [2] = 4'''
 
 # словарь(ключ-значение)
-'''favoriteSports = {"андрей шевченко": "футбол", "рафаель надаль": "тенис", "михаель шумахер": "гонки"}
+favoriteSports = {"андрей шевченко": "футбол", "рафаель надаль": "тенис", "михаель шумахер": "гонки"}
 print(favoriteSports["рафаель надаль"])
-favoriteSports ["андрей шевченко"] = "пиздабол"
+favoriteSports["андрей шевченко"] = "пиздабол"
 print(favoriteSports)
 del favoriteSports["михаель шумахер"]
-print(favoriteSports)'''
+print(favoriteSports)
 
 # myFirstName = "vadim"
 '''myLastName = "trubay"
