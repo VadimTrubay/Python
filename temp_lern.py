@@ -1,0 +1,1 @@
+path = r'C:\Program Files\nain.exe'
