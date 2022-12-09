@@ -227,10 +227,10 @@ while x < 50 and y < 100:
     y = y + 5
     print(x, y)'''
 
-'''for x in range(0, 20):
-    print('привет %s' % x)
-    if x > 9:
-         break'''
+# for x in range(0, 20):
+#     print(f'привет {x}')
+#     if x > 9:
+#         break
 
 '''x = 0
 while x <40:
@@ -257,6 +257,7 @@ testFunc("vad", "trubay")'''
 firstName = "vad"
 lastName = "trubay"
 testFunc(firstName, lastName)'''
+
 '''def savings ():
     poscetMoney = 10
     paperRout = 10
@@ -293,16 +294,16 @@ def silly_age_joke():
     return weight * plusyear * year
 print(moonWeight(85, 0.25, 5))'''
 
-'''import sys
-def moonWeight():
-    print("Введите Ваш земной вес: ")
-    weight = int(sys.stdin.readline())
-    print("Введите ежегодную прибавку веса: ")
-    weightPlus = float(sys.stdin.readline())
-    print("Введите количество лет : ")
-    age = int(sys.stdin.readline())
-    return weight * weightPlus * age
-print(f"Ваш лунный вес составит {moonWeight()}")'''
+# import sys
+# def moonWeight():
+#     print("Введите Ваш земной вес: ")
+#     weight = int(sys.stdin.readline())
+#     print("Введите ежегодную прибавку веса: ")
+#     weightPlus = float(sys.stdin.readline())
+#     print("Введите количество лет : ")
+#     age = int(sys.stdin.readline())
+#     return weight * weightPlus * age
+# print(f"Ваш лунный вес составит {moonWeight()}")
 
 
 # обьекты и класы
