@@ -7,7 +7,7 @@ result_string = ''
 while True:
     try:
         text = input('enter your string>: ')
-        if text.isdigit():
+        if text.isnumeric():
             raise ValueError
     except ValueError:
         print(f'is not string, please enter type string')
