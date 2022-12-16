@@ -11,12 +11,14 @@ while True:
             raise ValueError
     except ValueError:
         print(f'is not string, please enter type string')
+        continue
     else:
         while True:
             try:
                 shift = int(input('enter shift>: '))
             except ValueError:
                 print(f'is not integer, please enter type integer')
+                continue
             else:
                 for i in text:
                     if i in alphabet_upper:
@@ -27,5 +29,5 @@ while True:
                         result_string += i
                 print('=====================')
                 print(f'result string: {result_string}')
-                break
-
+            break
+    break
