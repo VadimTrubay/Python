@@ -20,12 +20,12 @@ class Paddle:
         elif pos[2] >= self.canvas_width:
             self.x = 0
 
-#    def turn_left(self, event):
-#        if event.keysym == 'Left':
-#            canvas.move(1, -7, 0)
-#    def turn_right(self, event):
-#        if event.keysym == 'Right0':
-#            canvas.move(1, 7, 0)
+   # def turn_left(self, event):
+   #     if event.keysym == 'Left':
+   #         canvas.move(1, -7, 0)
+   # def turn_right(self, event):
+   #     if event.keysym == 'Right0':
+   #         canvas.move(1, 7, 0)
 
     def turn_left(self, evt):
         self.x = -3
@@ -98,8 +98,3 @@ while 1:
     if ball.hit_bottom == True:
         canvas.create_text(250, 250, text='GAME OVER', fill='green', font=('Courier', 60))
         tk.mainloop()
-
-
-
-
-
